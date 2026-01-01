@@ -9,7 +9,6 @@ my-ai-configs/
 ├── README.md
 ├── .clinerules                 # Cline/Roo Code configuration
 ├── .clauderc                   # Claude CLI settings (optional)
-├── .cursor-rules               # Cursor AI rules (optional)
 │
 ├── prompts/                    # Custom prompt library
 │   ├── system/                 # System-level prompts
