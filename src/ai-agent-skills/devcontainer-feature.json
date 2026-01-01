@@ -1,9 +1,9 @@
 {
     "name": "AI Agent Skills & Configs",
     "id": "ai-agent-skills",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Sync AI Agent prompts, MCP configs, and .clinerules from a central cloud storage.",
-    "documentationURL": "https://github.com/your-username/my-devcontainer-feature",
+    "documentationURL": "https://github.com/yhsung/my-devcontainer-feature",
     "options": {
         "configRepoUrl": {
             "type": "string",

@@ -2,7 +2,7 @@
 set -e
 
 # Parse options from devcontainer-feature.json
-CONFIG_REPO_URL="${CONFIGREPOURL:-}"
+CONFIG_REPO_URL="${CONFIGREPOURL:-https://github.com/yhsung/ai-agent-config}"
 TARGET_PATH="${TARGETPATH:-/usr/local/share/ai-configs}"
 ENABLE_SYMLINKS="${ENABLESYMLINKS:-true}"
 CONFIG_BRANCH="${CONFIGBRANCH:-main}"
