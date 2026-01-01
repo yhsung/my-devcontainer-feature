@@ -1,0 +1,38 @@
+{
+    "name": "AI Agent Skills & Configs",
+    "id": "ai-agent-skills",
+    "version": "1.0.0",
+    "description": "Sync AI Agent prompts, MCP configs, and .clinerules from a central cloud storage.",
+    "documentationURL": "https://github.com/your-username/my-devcontainer-feature",
+    "options": {
+        "configRepoUrl": {
+            "type": "string",
+            "description": "Git repository URL containing your AI skills configuration files",
+            "default": ""
+        },
+        "targetPath": {
+            "type": "string",
+            "description": "Container path where config files will be stored",
+            "default": "/usr/local/share/ai-configs"
+        },
+        "enableSymlinks": {
+            "type": "boolean",
+            "description": "Automatically create symlinks for .clinerules and other config files to workspace",
+            "default": true
+        },
+        "configBranch": {
+            "type": "string",
+            "description": "Branch to clone from the config repository",
+            "default": "main"
+        },
+        "syncMcpConfigs": {
+            "type": "boolean",
+            "description": "Sync MCP (Model Context Protocol) server configurations",
+            "default": true
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/git"
+    ]
+}
